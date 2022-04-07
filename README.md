@@ -1,3 +1,6 @@
+Portfolio website using React, The features used :
+email.js for contact, and animate.css for animation effect, and fontawesome-react for social media icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
