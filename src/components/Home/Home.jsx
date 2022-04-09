@@ -4,7 +4,7 @@ import aelabass from "../../assets/images/aelabass.jpg"
 import { Link } from 'react-router-dom'
 import Animate from '../AnimatedLetters/Animate'
 import Logo from './logo/Logo'
-
+import Loader from 'react-loaders'
 
 
 export default function Home() {
@@ -23,6 +23,7 @@ export default function Home() {
 
 
   return (
+    <>
     <div className='container home-page'>
         <div className='text-zone'>
             <h1><span className={letterClass}>H</span>
@@ -41,5 +42,7 @@ export default function Home() {
         </div>
         <Logo/>
     </div>
+    <Loader type="pacman"/>
+    </>
   )
 }
