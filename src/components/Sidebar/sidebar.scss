@@ -13,15 +13,18 @@
   
       img {
         display: block;
-        margin: 8px auto;
-        width: 24px;
+        margin: 6px auto;
+        width: 55px;
         height: auto;
+        border-redius:80%;
   
         &.sub-logo {
           width: 50px;
         }
       }
     }
+
+    
   
     nav {
       display: block;

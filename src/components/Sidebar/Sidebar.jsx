@@ -2,8 +2,7 @@ import './sidebar.scss'
 import {Link, NavLink} from "react-router-dom"
 import React from 'react'
 import LogoS from "../../assets/images/logo-s.png"
-import LogoSubtitle from "../../assets/images/logo_sub.png"
-import aelabass from "../../assets/images/aelabass.jpg"
+import aelabass from "../../assets/images/ae.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -16,8 +15,7 @@ export default function Sidebar() {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={aelabass} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img  src={aelabass} alt="Logo" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
@@ -55,7 +53,7 @@ export default function Sidebar() {
         </li>
         <li>
           <a
-            href="https://www.twitter.com/@abderrazaq"
+            href="https://www.twitter.com/@abderrazaq_el"
             rel="noreferrer"
             target="_blank"
           >
@@ -63,7 +61,7 @@ export default function Sidebar() {
           </a>
         </li>
         <li>
-          <a href="skype:live:AbderrazaqElAbassi" rel="noreferrer" target="_blank">
+          <a href="skype:live:ELABASSI ABDERRAZAQ" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
         </li>
